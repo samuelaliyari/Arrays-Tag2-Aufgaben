@@ -254,4 +254,4 @@ console.log("%c <<<<<<<Array-Sort-Level-2_2>>>>>>>", "color: yellowgreen; fontsi
 let numArray2 = [36, 324, 122, 62, 98, 88, 99, 1000];
 
 const sortieren = numArray2.sort((num1, num2) => num1 -num2);
-console.log(sortieren):
+console.log(sortieren);
