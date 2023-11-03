@@ -179,7 +179,7 @@ let album = [
     "DOGATBEACH.jpg",
 ]
 
-const filtered  = album.map((fileName) => fileName.includes(".") ? fileName.slice(0, -4) : fileName = "invalid");
+const filtered  = album.map((fileName) => fileName.includes(".") ? fileName.slice(0, fileName.indexOf(".")).toLowerCase() : fileName = "invalid");
 console.log(filtered);
 
 // ============================================
